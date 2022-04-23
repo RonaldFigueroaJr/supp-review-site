@@ -1,8 +1,29 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://cdn.wallpapersafari.com/8/49/8P27Nk.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
 
 a {
   color: #00B7FF;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  text-align: center;
+}
+
+.login img {
+  height: 30px;
+  text-align: center;
 }
