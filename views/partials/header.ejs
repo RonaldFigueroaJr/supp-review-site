@@ -8,15 +8,17 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-  <h1>Junior's Supplement Reviews</h1>
+  <h1>*****************</h1>
   <nav>
     <a href="/home">Home</a>
     <% if (user) { %>
-        <a href="/protein">Protein</a>
-        <a href="/creatine">Creatine</a>
+        <a href="/protein">PROTEIN</a>
+        <a href="/creatine">CREATINE</a>
         <a href="/bcaa">BCAA</a>
+        <a href="/about">ABOUT</a>
         <a href="/logout">LOG OUT</a>
       <% } else { %>
+        <a href="/about">ABOUT</a>
         <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
       <% } %>
   </nav>
