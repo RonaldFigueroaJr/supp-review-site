@@ -1,6 +1,13 @@
 <%- include('../partials/header') %>
 
-<h1>CREATINE</h1>
-
+<h1><button onclick="history.back()">Go Back</button></h1>
+    <% if (user) { %>
+        <h1>Bucked Up - Woke AF vs. GAT Nitraflex</h1>
+        <img src="https://i.ibb.co/W6wWTRD/My-project-1.png" alt="woke" class="protein">
+        <img src="https://i.ibb.co/7Q6xy6x/My-project.png" alt="vs">
+        <img src="https://i.ibb.co/fX7D8yT/My-project.png" alt="nitra" class="protein">
+    <% } else { %>
+        <h2>You must be logged in to view this page.</h2>
+    <% } %>
 
 <%- include('../partials/footer') %>

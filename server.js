@@ -16,6 +16,7 @@ var homeRouter = require('./routes/home');
 var creatineRouter = require('./routes/creatine');
 var proteinRouter = require('./routes/protein');
 var bcaaRouter = require('./routes/bcaa');
+var aboutRouter = require('./routes/about');
 
 var app = express();
 
@@ -51,6 +52,7 @@ app.use('/home', homeRouter);
 app.use('/creatine', creatineRouter);
 app.use('/protein', proteinRouter);
 app.use('/bcaa', bcaaRouter);
+app.use('/about', aboutRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

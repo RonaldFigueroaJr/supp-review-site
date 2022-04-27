@@ -1,6 +1,13 @@
 <%- include('../partials/header') %>
 
-<h1>BCAA</h1>
-
+<h1><button onclick="history.back()">Go Back</button></h1>
+    <% if (user) { %>
+        <h1>BPI BCAA vs. Optimum Nutrition BCAA</h1>
+        <img src="https://i.ibb.co/vs6r0NJ/My-project-1.png" alt="bpi" class="protein">
+        <img src="https://i.ibb.co/7Q6xy6x/My-project.png" alt="vs">
+        <img src="https://i.ibb.co/V3Q57dS/My-project.png" alt="onbcaa" class="protein">
+    <% } else { %>
+        <h2>You must be logged in to view this content.</h2>
+    <% } %>
 
 <%- include('../partials/footer') %>
