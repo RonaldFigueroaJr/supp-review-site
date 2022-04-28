@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+
+<h1>ALL SUPPLEMENTS</h1>
+
+<section id="supplement-container">
+<% supplements.forEach(function (supplement) { %>
+    <article>
+        <h3><%= supplement.description %></h3>
+        <a href="<%= supplement.url %>" target="_blank">Website</a>
+        <button class="viewComments" role="button"><a href="/supplements/<%= supplement._id %>">View Comments</a></button>
+    </article>
+<% }) %>
+</section>
+
+
+
+<%- include('../partials/footer') %>

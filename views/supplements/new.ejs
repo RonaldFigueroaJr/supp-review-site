@@ -1,0 +1,14 @@
+<%- include('../partials/header') %>
+
+<h1>ADD SUPPLEMENT</h1>
+
+<form id="new-form" action="/supplements" method="POST">
+    <label>Description:</label>
+    <input type="text" name="description" required>
+    <label>Website URL:</label>
+    <input type="text" name="url"required>
+    <label></label>
+    <input type="submit" value="Add Supplement" required>
+  </form>
+
+<%- include('../partials/footer') %>

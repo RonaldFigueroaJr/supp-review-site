@@ -14,9 +14,10 @@ require('./config/passport');
 var indexRouter = require('./routes/index');
 var homeRouter = require('./routes/home');
 var creatineRouter = require('./routes/creatine');
-var proteinRouter = require('./routes/protein');
+var supplementsRouter = require('./routes/supplements');
 var bcaaRouter = require('./routes/bcaa');
 var aboutRouter = require('./routes/about');
+var reviewsRouter = require('./routes/reviews');
 
 var app = express();
 
@@ -50,9 +51,10 @@ const isLoggedIn = require('./config/auth');
 app.use('/', indexRouter);
 app.use('/home', homeRouter);
 app.use('/creatine', creatineRouter);
-app.use('/protein', proteinRouter);
+app.use('/supplements', supplementsRouter);
 app.use('/bcaa', bcaaRouter);
 app.use('/about', aboutRouter);
+app.use('/', reviewsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
