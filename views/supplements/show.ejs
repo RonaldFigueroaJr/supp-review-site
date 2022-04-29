@@ -1,4 +1,4 @@
-<h2>Reviews</h2>
+<h2><%= supplement.description %></h2>
     <% if (user) { %>
       <form id="add-review-form" method="POST" action="/supplements/<%= supplement._id %>/reviews">
         <label>Comment:</label>

@@ -4,8 +4,17 @@ module.exports = {
     index,
     new: newSupplement,
     create,
-    show
+    show,
+    delete: deleteSupplement
 };
+
+function deleteSupplement(req, res) {
+    Supplement.findOneAndDelete(
+      {_id: req.params.id, userRecommending: req.user._id}, function(err) {
+        res.redirect('/supplements');
+      }
+    );
+  }
 
 function show(req, res) {
     console.log(req.params.id);
