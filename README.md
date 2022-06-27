@@ -4,15 +4,15 @@
 </div>
 
 <div align="center">
-  <h3>Ronald 'Junior' Figueroa Jr.</h3>`                             
-  <a href="https://github.com/ronaldfigueroajr"_target="_blank">
+  <h3>Ronald 'Junior' Figueroa Jr.</h3>                             
+<!--   <a href="https://github.com/ronaldfigueroajr"_target="_blank">
     <img src="https://img.shields.io/badge/-Portfolio:_ronaldfigueroajr.github.io-darkgreen?style=flat&logo=medium"/>
-  </a>
+  </a> -->
   <a href="https://www.linkedin.com/in/ronaldfigueroajr/" target="_blank">
-    <img src="https://img.shields.io/badge/-linkedin.com/in/ronaldfigueroajr-blue?style=flat&``logo=Linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/-linkedin.com/in/ronaldfigueroajr-blue?style=flat&logo=Linkedin&logoColor=white">
   </a> 
   <a href="figueroajrronald@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-figueroajrronald@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=white">
+    <img src="https://img.shields.io/badge/-figueroajrronald@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
   </a>
 </div>
 
@@ -20,7 +20,7 @@
 <img align="center"img src="https://i.ibb.co/5Mf5HBN/Supplements-4-29-2022.png"</p>
 
 <details>
-<summary>Functionality</summary>
+<summary>:gear: Functionality</summary>
 
   | Description | Screenshot |
   |------------ | ------------|
